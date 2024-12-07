@@ -13,7 +13,8 @@ class Solution {
         vector<int> arr2(n2);
 
         
-        for (int i = 0; i < n1; i++) {
+        for (int i = 0; i < n1; i++) 
+        {
             arr1[i] = arr[low + i];
         }
         for (int i = 0; i < n2; i++) {
